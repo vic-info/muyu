@@ -13,6 +13,7 @@
 		9D2113B42CC9885500930240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2113B32CC9885500930240 /* Preview Assets.xcassets */; };
 		9D2113BD2CC99A1300930240 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2113BC2CC99A1300930240 /* AudioPlayer.swift */; };
 		9D2113BF2CC99C0A00930240 /* muyusound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D2113BE2CC99C0A00930240 /* muyusound.mp3 */; };
+		9D2113C32CC9ABAB00930240 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D2113C22CC9ABAB00930240 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9D2113B32CC9885500930240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D2113BC2CC99A1300930240 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		9D2113BE2CC99C0A00930240 /* muyusound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyusound.mp3; sourceTree = "<group>"; };
+		9D2113C22CC9ABAB00930240 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		9D2113A02CC9885400930240 = {
 			isa = PBXGroup;
 			children = (
+				9D2113C22CC9ABAB00930240 /* README.md */,
 				9D2113AB2CC9885400930240 /* muyu */,
 				9D2113AA2CC9885400930240 /* Products */,
 			);
@@ -133,6 +136,7 @@
 			files = (
 				9D2113B42CC9885500930240 /* Preview Assets.xcassets in Resources */,
 				9D2113B12CC9885500930240 /* Assets.xcassets in Resources */,
+				9D2113C32CC9ABAB00930240 /* README.md in Resources */,
 				9D2113BF2CC99C0A00930240 /* muyusound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
