@@ -32,6 +32,8 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: 200, maxHeight: 200)
                     .onTapGesture {
+                        playAudio(forResource: "muyusound", ofType: "mp3")
+                        
                         // 触发震动反馈
                         let generator = UIImpactFeedbackGenerator(style:.medium)
                         generator.impactOccurred()

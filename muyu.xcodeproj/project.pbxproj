@@ -11,6 +11,8 @@
 		9D2113AF2CC9885400930240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2113AE2CC9885400930240 /* ContentView.swift */; };
 		9D2113B12CC9885500930240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2113B02CC9885500930240 /* Assets.xcassets */; };
 		9D2113B42CC9885500930240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2113B32CC9885500930240 /* Preview Assets.xcassets */; };
+		9D2113BD2CC99A1300930240 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2113BC2CC99A1300930240 /* AudioPlayer.swift */; };
+		9D2113BF2CC99C0A00930240 /* muyusound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D2113BE2CC99C0A00930240 /* muyusound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9D2113AE2CC9885400930240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D2113B02CC9885500930240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2113B32CC9885500930240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D2113BC2CC99A1300930240 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		9D2113BE2CC99C0A00930240 /* muyusound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyusound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				9D2113AC2CC9885400930240 /* muyuApp.swift */,
 				9D2113AE2CC9885400930240 /* ContentView.swift */,
 				9D2113B02CC9885500930240 /* Assets.xcassets */,
+				9D2113BC2CC99A1300930240 /* AudioPlayer.swift */,
+				9D2113BE2CC99C0A00930240 /* muyusound.mp3 */,
 				9D2113B22CC9885500930240 /* Preview Content */,
 			);
 			path = muyu;
@@ -127,6 +133,7 @@
 			files = (
 				9D2113B42CC9885500930240 /* Preview Assets.xcassets in Resources */,
 				9D2113B12CC9885500930240 /* Assets.xcassets in Resources */,
+				9D2113BF2CC99C0A00930240 /* muyusound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			files = (
 				9D2113AF2CC9885400930240 /* ContentView.swift in Sources */,
 				9D2113AD2CC9885400930240 /* muyuApp.swift in Sources */,
+				9D2113BD2CC99A1300930240 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
